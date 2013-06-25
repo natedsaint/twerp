@@ -17,7 +17,8 @@ $settings = array(
 
 $twitter = new TWERP($settings);
 
-echo $twitter->getStatuses("natedsaint"); # this will use your credentials to determine if you have access to my top 20 tweets. 
+// this will use your credentials to determine if you have access to my top 20 tweets. 
+echo $twitter->getStatuses("natedsaint"); 
 
 // OR if you want to limit to the top 5
 $options = array("count"=>5);
